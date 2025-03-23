@@ -4,7 +4,7 @@ import Header from "../components/Header";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import Profile from "../components/Profile";
-
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -25,7 +25,7 @@ function Home() {
       <div className="w-[95%] sm:w-[90%] md:w-[85%] lg:w-[80%] mx-auto">
         <Projects />
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }
