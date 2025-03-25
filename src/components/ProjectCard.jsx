@@ -38,6 +38,7 @@ export default function ProjectCard({project}) {
           </a>
           <a
             href={project.live}
+            onClick={(e) => e.preventDefault()}
             target="_blank"
             rel="noreferrer"
             className="text-base font-medium leading-4 text-[#3730A3] dark:text-[#E1E1FF] underline hover:opacity-80"

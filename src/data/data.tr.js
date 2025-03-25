@@ -10,7 +10,7 @@ export const dataTr = {
       { label: "Github", link: "https://github.com/Berke0119", type: "secondary", icon: "FaGithub" },
       { label: "LinkedIn", link: "#", type: "secondary", icon: "FaLinkedinIn"},
     ],
-    image: "/images/berke.png",
+    image: "/images/berkeresimremover.png",
   },
 
   skills: [
@@ -78,7 +78,7 @@ export const dataTr = {
   projects: [
     {
       title: "Pizza Projesi",
-      description: "Bir pizza sipariş projesi...",
+      description: "React ve css konularında gelişmek için yaptığım tasarım odaklı ve genel React konularını içeren bir pizza restorantı projesi.",
       image: "/images/project1.png",
       techStack: ["react", "axios", "css modules"],
       github: "https://github.com/Berke0119/PizzaProjesiWT",
@@ -86,7 +86,7 @@ export const dataTr = {
     },
     {
       title: "FastJob",
-      description: "Yapay zeka destekli bir iş arama platformu...",
+      description: "Linkedin benzeri yapay zekayla güçlendirilmiş. İş verenler ve çalışanları buluşturan ayrıca şirketlerin çalışanları değerlendirmesini kolaylaştıran bir iş bulma platformu.",
       image: "/images/project2.png",
       techStack: ["Flutter", "Firebase", "Dart"],
       github: "https://github.com/Berke0119/FastJob",
@@ -94,7 +94,7 @@ export const dataTr = {
     },
     {
       title: "Portfolyo Sitesi",
-      description: "Bir geliştiriciye ait portfolyo sitesi...",
+      description: "Kendimi ve kodlama yeteneklerimi tanıttığım ve benimle çalışmak isteyenlerin bana ulaşabileceği bir Portfolyo projesi.",
       image: "/images/project3.png",
       techStack: ["react", "tailwind css", "tanstack query", "react-router-dom", "axios"],
       github: "https://github.com/Berke0119/PortfolioWebsite",

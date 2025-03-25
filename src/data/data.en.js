@@ -10,7 +10,7 @@ export const dataEn = {
       { label: "Github", link: "https://github.com/Berke0119", type: "secondary", icon: "FaGithub" },
       { label: "LinkedIn", link: "#", type: "secondary", icon: "FaLinkedinIn" },
     ],
-    image: "/images/berke.png",
+    image: "/images/berkeresimremover.png",
   },
 
   skills: [
@@ -84,7 +84,7 @@ export const dataEn = {
   projects: [
     {
       title: "Pizza Project",
-      description: "A pizza ordering project...",
+      description: "A pizza restaurant project that I made to improve my skills in React and CSS, with a focus on design and general React topics.",
       image: "/images/project1.png",
       techStack: ["react", "axios", "css modules"],
       github: "https://github.com/Berke0119/PizzaProjesiWT",
@@ -92,7 +92,7 @@ export const dataEn = {
     },
     {
       title: "FastJob",
-      description: "An AI-powered job search platform...",
+      description: "A job search platform powered by artificial intelligence, similar to Linkedin, that brings together employers and employees and makes it easier for companies to evaluate employees.",
       image: "/images/project2.png",
       techStack: ["Flutter", "Firebase", "Dart"],
       github: "https://github.com/Berke0119/FastJob",
@@ -100,7 +100,7 @@ export const dataEn = {
     },
     {
       title: "Portfolio Website",
-      description: "A portfolio website for a developer...",
+      description: "A portfolio project where I introduce myself and showcase my coding skills. It's designed for those who are interested in working with me to get in touch easily.",
       image: "/images/project3.png",
       techStack: ["react", "tailwind css", "tanstack query", "react-router-dom", "axios"],
       github: "https://github.com/Berke0119/PortfolioWebsite",

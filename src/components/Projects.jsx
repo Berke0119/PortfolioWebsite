@@ -12,7 +12,7 @@ export default function Projects() {
 
   return (
     <section id="projects" className="py-16">
-      <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#1E293B] dark:text-[#CBD5E1] mb-8 sm:mb-12">
+      <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#1E293B] dark:text-[#CBD5E1] mb-8 sm:mb-12 transform transition-all duration-300 hover:translate-x-2">
         {language === "en" ? "Projects" : "Projeler"}
       </h2>
 
@@ -54,7 +54,9 @@ export default function Projects() {
           >
             {projects.map((project, i) => (
               <SwiperSlide key={i} className="flex justify-center pb-4">
-                <ProjectCard project={project} />
+                <div className="transform transition-transform duration-300 hover:-translate-y-1">
+                  <ProjectCard project={project} />
+                </div>
               </SwiperSlide>
             ))}
           </Swiper>
