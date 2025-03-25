@@ -5,6 +5,7 @@ import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import Profile from "../components/Profile";
 import Footer from "../components/Footer";
+import ChatWidget from "../components/ChatWidget";
 
 function Home() {
   return (
@@ -26,7 +27,9 @@ function Home() {
         <Projects />
       </div>
       <Footer />
+      <ChatWidget />
     </div>
+   
   )
 }
 

@@ -1,11 +1,12 @@
 import { useData } from "../context/DataContext";
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 export default function Navbar() {
   const { data } = useData();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+  const navigate = useNavigate();
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
@@ -41,7 +42,7 @@ export default function Navbar() {
         ) : null)}
 
         <button 
-          onClick={() => scrollToSection("hire")}
+          onClick={() => navigate("/contact")}
           className="text-base sm:text-lg leading-7 font-medium text-[#3730A3] px-4 py-1.5 rounded border border-[#3730A3] hover:bg-[#3730A3] hover:text-white transition-colors dark:bg-white dark:text-[#3730A3] dark:hover:bg-[#3730A3] dark:hover:text-white w-[80%] md:w-auto"
         >
           {data?.navbarItems?.find((item) => item.id === "hire")?.label}

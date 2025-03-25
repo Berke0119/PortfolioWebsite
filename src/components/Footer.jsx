@@ -10,20 +10,20 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-col gap-8 md:flex-row justify-between items-start md:items-center">
-            <a
-              href="mailto:almilasucode@gmail.com"
+            <div
+              href="mailto:berkeserin2001@gmail.com"
               className="text-xl font-semibold text-[#AF0C48] dark:text-[#BAB2E7] hover:opacity-90"
             >
-              👉 <span className="underline">almilasucode@gmail.com</span>
-            </a>
+              👉 <span className="underline">berkeserin2001@gmail.com</span>
+            </div>
 
             <div className="flex gap-8 text-lg font-medium leading-relaxed">
-              <a
+              <div
                 href="#"
                 className="text-[#0A0A14] dark:text-[#E1E1FF]"
               >
                 Personal Blog
-              </a>
+              </div>
               <a
                 href="https://github.com/Berke0119"
                 target="_blank"
