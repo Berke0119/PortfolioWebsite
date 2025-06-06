@@ -32,7 +32,7 @@ export default function Footer() {
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#00AB6B] dark:bg-[#17D18B] transition-all duration-300 group-hover:w-full"></span>
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/berke-serin-6a2574359/"
                 target="_blank"
                 rel="noreferrer"
                 className="relative group"

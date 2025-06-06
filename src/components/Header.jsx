@@ -74,7 +74,6 @@ const Header = () => {
                 <a
                   key={button.label}
                   href={button.link}
-                  onClick={(e) => e.preventDefault()}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-3 sm:px-4 md:px-5 py-1.5 sm:py-2 rounded border border-[#3730A3] text-base sm:text-lg leading-7 font-medium flex items-center gap-2 dark:border-[#E1E1FF] min-w-[120px] sm:min-w-fit justify-center bg-white text-[#3730A3] hover:bg-[#3730A3] hover:text-white transition-all duration-300 dark:bg-[#383838] dark:text-[#E1E1FF] dark:hover:bg-[#E1E1FF] dark:hover:text-[#383838] transform hover:scale-105"
