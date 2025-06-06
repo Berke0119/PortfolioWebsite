@@ -6,9 +6,9 @@ export const dataTr = {
     description:
       "Merhaba, ben Berke. Ölçeklenebilir ve sağlam frontend projeleri üretmeyi seven bir full-stack geliştiriciyim. Harika kullanıcı deneyimleri için el sıkışalım!",
     buttons: [
-      { label: "Bana ulaş", link: "#", type: "primary", icon: "FaEnvelope" },
+      { label: "Bana ulaş", link: "mailto:berkeserin2001@gmail.com", type: "primary", icon: "FaEnvelope" },
       { label: "Github", link: "https://github.com/Berke0119", type: "secondary", icon: "FaGithub" },
-      { label: "LinkedIn", link: "#", type: "secondary", icon: "FaLinkedinIn"},
+      { label: "LinkedIn", link: "https://www.linkedin.com/in/berke-serin-6a2574359/", type: "secondary", icon: "FaLinkedinIn"},
     ],
     image: "/images/berkeresimremover.png",
   },

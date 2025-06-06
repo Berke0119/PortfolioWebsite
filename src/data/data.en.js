@@ -6,9 +6,9 @@ export const dataEn = {
     description:
       "Hi, I'm Berke. I'm a full-stack developer. If you are looking for a Developer who loves to craft solid and scalable frontend products with great user experiences, Let's shake hands with me.",
     buttons: [
-      { label: "Hire me", link: "#", type: "primary", icon: "FaEnvelope" },
+      { label: "Hire me", link: "mailto:berkeserin2001@gmail.com", type: "primary", icon: "FaEnvelope" },
       { label: "Github", link: "https://github.com/Berke0119", type: "secondary", icon: "FaGithub" },
-      { label: "LinkedIn", link: "#", type: "secondary", icon: "FaLinkedinIn" },
+      { label: "LinkedIn", link: "https://www.linkedin.com/in/berke-serin-6a2574359/", type: "secondary", icon: "FaLinkedinIn" },
     ],
     image: "/images/berkeresimremover.png",
   },
